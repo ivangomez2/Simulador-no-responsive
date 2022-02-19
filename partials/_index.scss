@@ -1,0 +1,151 @@
+@media (max-width:997px){
+  .section__indexImg{
+    display: grid;
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+
+@media (max-width:1518px){
+  .header__indexSocial{
+    display: none;
+    
+  }
+}
+
+@media (max-width:566px){
+  .section__indexDivv{
+  display: grid;
+  grid-template-columns: 1fr;
+  }
+}
+
+
+.header__index{
+
+.header__indexDiv{
+  background-color: rgb(216, 214, 214);
+  text-align: center;
+  height: 40px;
+  font-size: 20px;
+
+
+  
+}
+
+.header__indexDivBarra{
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  .header__indexSearch{
+   display: flex;
+   
+    input{
+    height:30px;
+    width: 250px;
+    border-radius: 10px;
+  }
+  button{
+    border-radius: 10px;
+  }
+}
+ img{
+
+   width: 230px;
+ }
+
+ 
+}
+
+.header__indexDivIcons{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.header__indexFoot{
+  
+  height: 35px;
+  font-size: 20px;
+  text-align: center;
+  border:2px transparent solid;
+  border-image:-webkit-linear-gradient(left,rgb(19, 211, 236),rgb(16, 255, 96), rgb(255, 72, 16)) 1 10;
+
+  span{
+    color: rgb(234, 2, 255);
+  }
+}
+
+.header__mainnavv{
+justify-content: space-around;
+
+
+img{
+  position: relative;
+ left: 600px;
+}
+}
+
+}
+
+.main__indexSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  gap: 30px;
+
+  img{
+    width: 43%;
+  }
+}
+
+
+.section__index{
+  margin-top: 30px;
+text-align: center;
+
+.section__indexImg{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ 
+  img{
+    width: 250px;
+    
+  }
+
+  .zapaCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+}
+.section__indexDivv{
+  padding: 40px;
+  align-items: center;
+  margin-top: 30px;
+  height: 200px;
+  background-color: salmon;
+
+  input{
+    width: 400px;
+  }
+
+  input,button{ 
+    border-radius: 30px;
+    border: none;
+  }
+}
+}
+
+.carousell{
+img{
+  width: 100%;
+}
+  
+}

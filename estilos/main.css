@@ -1,0 +1,108 @@
+@media (max-width: 997px) {
+  .section__indexImg {
+    display: grid;
+    grid-template-columns: 1fr 1fr !important; } }
+
+@media (max-width: 1518px) {
+  .header__indexSocial {
+    display: none; } }
+
+@media (max-width: 566px) {
+  .section__indexDivv {
+    display: grid;
+    grid-template-columns: 1fr; } }
+
+.header__index .header__indexDiv {
+  background-color: #d8d6d6;
+  text-align: center;
+  height: 40px;
+  font-size: 20px; }
+
+.header__index .header__indexDivBarra {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+  .header__index .header__indexDivBarra .header__indexSearch {
+    display: flex; }
+    .header__index .header__indexDivBarra .header__indexSearch input {
+      height: 30px;
+      width: 250px;
+      border-radius: 10px; }
+    .header__index .header__indexDivBarra .header__indexSearch button {
+      border-radius: 10px; }
+  .header__index .header__indexDivBarra img {
+    width: 230px; }
+
+.header__index .header__indexDivIcons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr; }
+
+.header__index .header__indexFoot {
+  height: 35px;
+  font-size: 20px;
+  text-align: center;
+  border: 2px transparent solid;
+  border-image: -webkit-linear-gradient(left, #13d3ec, #10ff60, #ff4810) 1 10; }
+  .header__index .header__indexFoot span {
+    color: #ea02ff; }
+
+.header__index .header__mainnavv {
+  justify-content: space-around; }
+  .header__index .header__mainnavv img {
+    position: relative;
+    left: 600px; }
+
+.main__indexSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  gap: 30px; }
+  .main__indexSection img {
+    width: 43%; }
+
+.section__index {
+  margin-top: 30px;
+  text-align: center; }
+  .section__index .section__indexImg {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; }
+    .section__index .section__indexImg img {
+      width: 250px; }
+    .section__index .section__indexImg .zapaCard {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center; }
+  .section__index .section__indexDivv {
+    padding: 40px;
+    align-items: center;
+    margin-top: 30px;
+    height: 200px;
+    background-color: salmon; }
+    .section__index .section__indexDivv input {
+      width: 400px; }
+    .section__index .section__indexDivv input, .section__index .section__indexDivv button {
+      border-radius: 30px;
+      border: none; }
+
+.carousell img {
+  width: 100%; }
+
+@media (max-width: 722px) {
+  .sectionCompra img {
+    width: 300px; } }
+
+.sectionCompra {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .sectionCompra .botonesCompra {
+    display: block; }
+
+* {
+  margin: 0px;
+  font-weight: bold; }

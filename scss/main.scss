@@ -1,0 +1,28 @@
+@import "../partials/index";
+
+
+@media (max-width:722px){
+
+   
+
+    .sectionCompra{
+        
+    img{
+        width: 300px;
+    }    
+    }
+}
+.sectionCompra{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .botonesCompra{
+        display: block
+    }
+}
+
+
+
+* { margin: 0px;
+font-weight: bold;}
