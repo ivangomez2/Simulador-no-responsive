@@ -39,14 +39,14 @@ for (let i = 0; i <= 3; i++) {
 
     if (pregunta == 3) {
      let resultado = Tres()
-      alert ("Pagá en 3 cuotas C/INTERES del" + " (30%) $" + resultado)
+      alert ("Pagá en 3 cuotas C/INTERES del" + " (30%) $" + resultado.toFixed(2))
 
     }else if (pregunta == 6) {
         let resultadoSeis = Seis()
-        alert ("Pagá en 6 cuotas C/INTERES del" + " (40%) $" + resultadoSeis)
+        alert ("Pagá en 6 cuotas C/INTERES del" + " (40%) $" + resultadoSeis.toFixed(2))
     }else if(pregunta == 12){
         let resultadoDoce = Doce()
-        alert ("Pagá en 12 cuotas C/INTERES del" + " (60%) $" + resultadoDoce)
+        alert ("Pagá en 12 cuotas C/INTERES del" + " (60%) $" + resultadoDoce.toFixed(2))
     }
 
 
