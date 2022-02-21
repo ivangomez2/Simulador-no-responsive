@@ -7,16 +7,14 @@ const Tres = ()=>{
     let result = costo * 0.3;
     let pfinal = result + costo;
     let interes = pfinal / 3;
-    let alerta = alert ("Pagá en 3 cuotas C/INTERES del" + " (30%) $" + interes)
-    return alerta;
+    return interes
     }
 
     const Seis = ()=>{
         let result = costo * 0.4;
         let pfinal = result + costo;
         let interes = pfinal / 6;
-        let alerta = alert ("Pagá en 6 cuotas C/INTERES del" + " (40%) $" + interes)
-        return alerta
+       return interes
     }
 
 
@@ -25,8 +23,7 @@ const Doce =()=>{
     let result = costo * 0.6;
     let pfinal = result + costo;
     let interes = pfinal / 12;
-    alert ("Pagá en 12 cuotas C/INTERES del" + " (60%) $" + interes)
-
+    return interes
 }
     
  
@@ -42,14 +39,14 @@ for (let i = 0; i <= 3; i++) {
 
     if (pregunta == 3) {
      let resultado = Tres()
-        alert(resultado);
+      alert ("Pagá en 3 cuotas C/INTERES del" + " (30%) $" + resultado)
 
     }else if (pregunta == 6) {
         let resultadoSeis = Seis()
-        alert (resultadoSeis)
+        alert ("Pagá en 6 cuotas C/INTERES del" + " (40%) $" + resultadoSeis)
     }else if(pregunta == 12){
         let resultadoDoce = Doce()
-        alert (resultadoDoce);
+        alert ("Pagá en 12 cuotas C/INTERES del" + " (60%) $" + resultadoDoce)
     }
 
 

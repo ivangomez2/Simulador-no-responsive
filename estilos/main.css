@@ -7,6 +7,22 @@
   .header__indexSocial {
     display: none; } }
 
+@media (max-width: 503px) {
+  .header__indexFoot {
+    display: grid;
+    grid-template-columns: 1fr; }
+  .section__index {
+    display: grid;
+    grid-template-columns: 1fr; }
+  .section__indexImg {
+    display: flex !important;
+    flex-direction: column; }
+  .main__indexSection {
+    display: flex;
+    flex-direction: column; }
+  .carousell {
+    display: none; } }
+
 @media (max-width: 566px) {
   .section__indexDivv {
     display: grid;
@@ -36,12 +52,9 @@
 
 .header__index .header__indexDivIcons {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr; }
+  grid-template-columns: 1fr 1fr; }
 
 .header__index .header__indexFoot {
-  height: 35px;
-  font-size: 20px;
   text-align: center;
   border: 2px transparent solid;
   border-image: -webkit-linear-gradient(left, #13d3ec, #10ff60, #ff4810) 1 10; }
